@@ -4,7 +4,8 @@ import {EcDevfest2019} from '../src/EcDevfest2019.js';
 import '../src/ec-devfest2019.js';
 
 describe('EcDevfest2019', () => {
-  let element: EcDevfest2019;
+  //let element: EcDevfest2019; // error TS2740: Type 'Element' is missing the following properties from type 'EcDevfest2019': currentView, threads, thread, _installRoutes, and 7 more ???
+  let element: any;
   beforeEach(async () => {
     element = await fixture(html`
       <ec-devfest2019></ec-devfest2019>

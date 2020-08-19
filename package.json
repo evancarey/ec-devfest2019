@@ -65,7 +65,11 @@
   "author": "ec-devfest2019",
   "license": "MIT",
   "dependencies": {
+    "@material/linear-progress": "^7.0.0",
+    "@material/mwc-drawer": "^0.17.2",
+    "@types/page": "^1.8.0",
+    "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",
-    "lit-element": "^2.0.1"
+    "page": "^1.11.6"
   }
 }
